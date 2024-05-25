@@ -1,0 +1,16 @@
+[package]
+name = "tic-tac-toe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+reqwest = { version = "0.12", features = ["json", "cookies"] }
+fnv = "1"
+chrono = "0.4.38"
+env_logger = "0.11.3"
+log = "0.4.14"
