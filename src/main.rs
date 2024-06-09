@@ -6,6 +6,8 @@ use crate::switchboard::Switchboard;
 mod switchboard;
 mod conf;
 mod message_handler;
+mod network;
+mod error;
 
 use message_handler::http_route::config;
 use crate::message_handler::http_route::AppState;
